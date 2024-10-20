@@ -11,7 +11,7 @@ occurring data.
 
 - <b>Python</b> 
   - <b>Packages</b>
-    - <b>numpy</b>
-    - <b>pandas</b>
-    - <b>matplotlib</b>
-    - <b>scipy.stats</b>
+    - <p>numpy</p>
+    - <p>pandas</p>
+    - <p>matplotlib</p>
+    - <p>scipy.stats</p>
