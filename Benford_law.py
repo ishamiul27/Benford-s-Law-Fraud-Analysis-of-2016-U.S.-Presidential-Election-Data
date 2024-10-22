@@ -79,14 +79,12 @@ def plot_distributions(benford_probs, empirical_probs):
     plt.grid()
     plt.show()
 
-
-# Example usage
 if __name__ == "__main__":
     # Load the dataset
     file_path = "/Users/.../Downloads/US_County_Level_Presidential_Results_08-16.csv"
     df = pd.read_csv(file_path)
 
-    # Prepare the data by selecting relevent columns and flattening the values
+    # Preparing of dataset by selecting relevent columns and flattening the values
     data = df[['total_2016','dem_2016','gop_2016','oth_2016']].astype(int).values.flatten()
 
     # Call the benford_law function on the prepared data
